@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/coup_a.dir/main.cpp.o  -o coup_a 
