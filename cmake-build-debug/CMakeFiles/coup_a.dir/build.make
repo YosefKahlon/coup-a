@@ -70,17 +70,137 @@ CMakeFiles/coup_a.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/main.cpp -o CMakeFiles/coup_a.dir/main.cpp.s
 
+CMakeFiles/coup_a.dir/Demo.cpp.o: CMakeFiles/coup_a.dir/flags.make
+CMakeFiles/coup_a.dir/Demo.cpp.o: ../Demo.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/coup_a.dir/Demo.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coup_a.dir/Demo.cpp.o -c /mnt/c/Users/97252/Documents/GitHub/coup-a/Demo.cpp
+
+CMakeFiles/coup_a.dir/Demo.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coup_a.dir/Demo.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/97252/Documents/GitHub/coup-a/Demo.cpp > CMakeFiles/coup_a.dir/Demo.cpp.i
+
+CMakeFiles/coup_a.dir/Demo.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/Demo.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/Demo.cpp -o CMakeFiles/coup_a.dir/Demo.cpp.s
+
+CMakeFiles/coup_a.dir/Duke.cpp.o: CMakeFiles/coup_a.dir/flags.make
+CMakeFiles/coup_a.dir/Duke.cpp.o: ../Duke.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/coup_a.dir/Duke.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coup_a.dir/Duke.cpp.o -c /mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.cpp
+
+CMakeFiles/coup_a.dir/Duke.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coup_a.dir/Duke.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.cpp > CMakeFiles/coup_a.dir/Duke.cpp.i
+
+CMakeFiles/coup_a.dir/Duke.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/Duke.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.cpp -o CMakeFiles/coup_a.dir/Duke.cpp.s
+
+CMakeFiles/coup_a.dir/Assassin.cpp.o: CMakeFiles/coup_a.dir/flags.make
+CMakeFiles/coup_a.dir/Assassin.cpp.o: ../Assassin.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/coup_a.dir/Assassin.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coup_a.dir/Assassin.cpp.o -c /mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.cpp
+
+CMakeFiles/coup_a.dir/Assassin.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coup_a.dir/Assassin.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.cpp > CMakeFiles/coup_a.dir/Assassin.cpp.i
+
+CMakeFiles/coup_a.dir/Assassin.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/Assassin.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.cpp -o CMakeFiles/coup_a.dir/Assassin.cpp.s
+
+CMakeFiles/coup_a.dir/Captain.cpp.o: CMakeFiles/coup_a.dir/flags.make
+CMakeFiles/coup_a.dir/Captain.cpp.o: ../Captain.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/coup_a.dir/Captain.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coup_a.dir/Captain.cpp.o -c /mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.cpp
+
+CMakeFiles/coup_a.dir/Captain.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coup_a.dir/Captain.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.cpp > CMakeFiles/coup_a.dir/Captain.cpp.i
+
+CMakeFiles/coup_a.dir/Captain.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/Captain.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.cpp -o CMakeFiles/coup_a.dir/Captain.cpp.s
+
+CMakeFiles/coup_a.dir/Contessa.cpp.o: CMakeFiles/coup_a.dir/flags.make
+CMakeFiles/coup_a.dir/Contessa.cpp.o: ../Contessa.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/coup_a.dir/Contessa.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coup_a.dir/Contessa.cpp.o -c /mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.cpp
+
+CMakeFiles/coup_a.dir/Contessa.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coup_a.dir/Contessa.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.cpp > CMakeFiles/coup_a.dir/Contessa.cpp.i
+
+CMakeFiles/coup_a.dir/Contessa.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/Contessa.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.cpp -o CMakeFiles/coup_a.dir/Contessa.cpp.s
+
+CMakeFiles/coup_a.dir/Game.cpp.o: CMakeFiles/coup_a.dir/flags.make
+CMakeFiles/coup_a.dir/Game.cpp.o: ../Game.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/coup_a.dir/Game.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coup_a.dir/Game.cpp.o -c /mnt/c/Users/97252/Documents/GitHub/coup-a/Game.cpp
+
+CMakeFiles/coup_a.dir/Game.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coup_a.dir/Game.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/97252/Documents/GitHub/coup-a/Game.cpp > CMakeFiles/coup_a.dir/Game.cpp.i
+
+CMakeFiles/coup_a.dir/Game.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/Game.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/Game.cpp -o CMakeFiles/coup_a.dir/Game.cpp.s
+
+CMakeFiles/coup_a.dir/Ambassador.cpp.o: CMakeFiles/coup_a.dir/flags.make
+CMakeFiles/coup_a.dir/Ambassador.cpp.o: ../Ambassador.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/coup_a.dir/Ambassador.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coup_a.dir/Ambassador.cpp.o -c /mnt/c/Users/97252/Documents/GitHub/coup-a/Ambassador.cpp
+
+CMakeFiles/coup_a.dir/Ambassador.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coup_a.dir/Ambassador.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/97252/Documents/GitHub/coup-a/Ambassador.cpp > CMakeFiles/coup_a.dir/Ambassador.cpp.i
+
+CMakeFiles/coup_a.dir/Ambassador.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/Ambassador.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/Ambassador.cpp -o CMakeFiles/coup_a.dir/Ambassador.cpp.s
+
+CMakeFiles/coup_a.dir/Player.cpp.o: CMakeFiles/coup_a.dir/flags.make
+CMakeFiles/coup_a.dir/Player.cpp.o: ../Player.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/coup_a.dir/Player.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/coup_a.dir/Player.cpp.o -c /mnt/c/Users/97252/Documents/GitHub/coup-a/Player.cpp
+
+CMakeFiles/coup_a.dir/Player.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/coup_a.dir/Player.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/97252/Documents/GitHub/coup-a/Player.cpp > CMakeFiles/coup_a.dir/Player.cpp.i
+
+CMakeFiles/coup_a.dir/Player.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/coup_a.dir/Player.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/97252/Documents/GitHub/coup-a/Player.cpp -o CMakeFiles/coup_a.dir/Player.cpp.s
+
 # Object files for target coup_a
 coup_a_OBJECTS = \
-"CMakeFiles/coup_a.dir/main.cpp.o"
+"CMakeFiles/coup_a.dir/main.cpp.o" \
+"CMakeFiles/coup_a.dir/Demo.cpp.o" \
+"CMakeFiles/coup_a.dir/Duke.cpp.o" \
+"CMakeFiles/coup_a.dir/Assassin.cpp.o" \
+"CMakeFiles/coup_a.dir/Captain.cpp.o" \
+"CMakeFiles/coup_a.dir/Contessa.cpp.o" \
+"CMakeFiles/coup_a.dir/Game.cpp.o" \
+"CMakeFiles/coup_a.dir/Ambassador.cpp.o" \
+"CMakeFiles/coup_a.dir/Player.cpp.o"
 
 # External object files for target coup_a
 coup_a_EXTERNAL_OBJECTS =
 
 coup_a: CMakeFiles/coup_a.dir/main.cpp.o
+coup_a: CMakeFiles/coup_a.dir/Demo.cpp.o
+coup_a: CMakeFiles/coup_a.dir/Duke.cpp.o
+coup_a: CMakeFiles/coup_a.dir/Assassin.cpp.o
+coup_a: CMakeFiles/coup_a.dir/Captain.cpp.o
+coup_a: CMakeFiles/coup_a.dir/Contessa.cpp.o
+coup_a: CMakeFiles/coup_a.dir/Game.cpp.o
+coup_a: CMakeFiles/coup_a.dir/Ambassador.cpp.o
+coup_a: CMakeFiles/coup_a.dir/Player.cpp.o
 coup_a: CMakeFiles/coup_a.dir/build.make
 coup_a: CMakeFiles/coup_a.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable coup_a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable coup_a"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/coup_a.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

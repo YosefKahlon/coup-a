@@ -123,6 +123,222 @@ coup_a/fast:
 	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/build
 .PHONY : coup_a/fast
 
+Ambassador.o: Ambassador.cpp.o
+
+.PHONY : Ambassador.o
+
+# target to build an object file
+Ambassador.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Ambassador.cpp.o
+.PHONY : Ambassador.cpp.o
+
+Ambassador.i: Ambassador.cpp.i
+
+.PHONY : Ambassador.i
+
+# target to preprocess a source file
+Ambassador.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Ambassador.cpp.i
+.PHONY : Ambassador.cpp.i
+
+Ambassador.s: Ambassador.cpp.s
+
+.PHONY : Ambassador.s
+
+# target to generate assembly for a file
+Ambassador.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Ambassador.cpp.s
+.PHONY : Ambassador.cpp.s
+
+Assassin.o: Assassin.cpp.o
+
+.PHONY : Assassin.o
+
+# target to build an object file
+Assassin.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Assassin.cpp.o
+.PHONY : Assassin.cpp.o
+
+Assassin.i: Assassin.cpp.i
+
+.PHONY : Assassin.i
+
+# target to preprocess a source file
+Assassin.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Assassin.cpp.i
+.PHONY : Assassin.cpp.i
+
+Assassin.s: Assassin.cpp.s
+
+.PHONY : Assassin.s
+
+# target to generate assembly for a file
+Assassin.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Assassin.cpp.s
+.PHONY : Assassin.cpp.s
+
+Captain.o: Captain.cpp.o
+
+.PHONY : Captain.o
+
+# target to build an object file
+Captain.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Captain.cpp.o
+.PHONY : Captain.cpp.o
+
+Captain.i: Captain.cpp.i
+
+.PHONY : Captain.i
+
+# target to preprocess a source file
+Captain.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Captain.cpp.i
+.PHONY : Captain.cpp.i
+
+Captain.s: Captain.cpp.s
+
+.PHONY : Captain.s
+
+# target to generate assembly for a file
+Captain.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Captain.cpp.s
+.PHONY : Captain.cpp.s
+
+Contessa.o: Contessa.cpp.o
+
+.PHONY : Contessa.o
+
+# target to build an object file
+Contessa.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Contessa.cpp.o
+.PHONY : Contessa.cpp.o
+
+Contessa.i: Contessa.cpp.i
+
+.PHONY : Contessa.i
+
+# target to preprocess a source file
+Contessa.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Contessa.cpp.i
+.PHONY : Contessa.cpp.i
+
+Contessa.s: Contessa.cpp.s
+
+.PHONY : Contessa.s
+
+# target to generate assembly for a file
+Contessa.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Contessa.cpp.s
+.PHONY : Contessa.cpp.s
+
+Demo.o: Demo.cpp.o
+
+.PHONY : Demo.o
+
+# target to build an object file
+Demo.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Demo.cpp.o
+.PHONY : Demo.cpp.o
+
+Demo.i: Demo.cpp.i
+
+.PHONY : Demo.i
+
+# target to preprocess a source file
+Demo.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Demo.cpp.i
+.PHONY : Demo.cpp.i
+
+Demo.s: Demo.cpp.s
+
+.PHONY : Demo.s
+
+# target to generate assembly for a file
+Demo.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Demo.cpp.s
+.PHONY : Demo.cpp.s
+
+Duke.o: Duke.cpp.o
+
+.PHONY : Duke.o
+
+# target to build an object file
+Duke.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Duke.cpp.o
+.PHONY : Duke.cpp.o
+
+Duke.i: Duke.cpp.i
+
+.PHONY : Duke.i
+
+# target to preprocess a source file
+Duke.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Duke.cpp.i
+.PHONY : Duke.cpp.i
+
+Duke.s: Duke.cpp.s
+
+.PHONY : Duke.s
+
+# target to generate assembly for a file
+Duke.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Duke.cpp.s
+.PHONY : Duke.cpp.s
+
+Game.o: Game.cpp.o
+
+.PHONY : Game.o
+
+# target to build an object file
+Game.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Game.cpp.o
+.PHONY : Game.cpp.o
+
+Game.i: Game.cpp.i
+
+.PHONY : Game.i
+
+# target to preprocess a source file
+Game.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Game.cpp.i
+.PHONY : Game.cpp.i
+
+Game.s: Game.cpp.s
+
+.PHONY : Game.s
+
+# target to generate assembly for a file
+Game.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Game.cpp.s
+.PHONY : Game.cpp.s
+
+Player.o: Player.cpp.o
+
+.PHONY : Player.o
+
+# target to build an object file
+Player.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Player.cpp.o
+.PHONY : Player.cpp.o
+
+Player.i: Player.cpp.i
+
+.PHONY : Player.i
+
+# target to preprocess a source file
+Player.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Player.cpp.i
+.PHONY : Player.cpp.i
+
+Player.s: Player.cpp.s
+
+.PHONY : Player.s
+
+# target to generate assembly for a file
+Player.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Player.cpp.s
+.PHONY : Player.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +375,30 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... coup_a"
+	@echo "... Ambassador.o"
+	@echo "... Ambassador.i"
+	@echo "... Ambassador.s"
+	@echo "... Assassin.o"
+	@echo "... Assassin.i"
+	@echo "... Assassin.s"
+	@echo "... Captain.o"
+	@echo "... Captain.i"
+	@echo "... Captain.s"
+	@echo "... Contessa.o"
+	@echo "... Contessa.i"
+	@echo "... Contessa.s"
+	@echo "... Demo.o"
+	@echo "... Demo.i"
+	@echo "... Demo.s"
+	@echo "... Duke.o"
+	@echo "... Duke.i"
+	@echo "... Duke.s"
+	@echo "... Game.o"
+	@echo "... Game.i"
+	@echo "... Game.s"
+	@echo "... Player.o"
+	@echo "... Player.i"
+	@echo "... Player.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

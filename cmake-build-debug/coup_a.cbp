@@ -84,6 +84,51 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Ambassador.cpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Ambassador.hpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.cpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.hpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.cpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.hpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.cpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.hpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Demo.cpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.cpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.hpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Game.cpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Game.hpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Player.cpp">
+			<Option target="coup_a"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/Player.hpp">
+			<Option target="coup_a"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/97252/Documents/GitHub/coup-a/main.cpp">
 			<Option target="coup_a"/>
 		</Unit>
