@@ -15,6 +15,7 @@ namespace coup {
         std::vector<std::string> player;
         bool win;
         int size;
+        int index;
 
     public:
 

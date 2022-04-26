@@ -4,40 +4,80 @@
 
 #include "Ambassador.hpp"
 
-Ambassador::Ambassador(Game &game, const string& name) {
-        game.player.push_back(name);
-        game.size++;
-        //game.add(name);
+Ambassador::Ambassador(Game &game, const string &name) {
+    game.player.push_back(name);
+    game.size++;
+    this->p_game = &game;
+    this->player_name = name;
+    this->money = 0;
 }
 
+
+/**
+ *
+ * @return How many coins does this player have
+ */
 int Ambassador::coins() const {
-    return 0;
+    return this->money;
 }
 
-void Ambassador::income() const {
 
+/**
+ * Action:
+ * the player choose to take one coin to his pile
+ *
+ * If it's not his turn throw exception !
+ */
+void Ambassador::income()  {
+    if (this->p_game->player.at(this->p_game->index % this->p_game->size) != this->player_name) {
+        throw invalid_argument("Not your turn !");
+    }
+    this->p_game->index++;
+    set_coins(1);
+}
+/**
+ * Action:
+ * the player choose to take two coins to his pile
+ *
+ * If it's not his turn throw exception !
+ */
+void Ambassador::foreign_aid()  {
+    if (this->p_game->player.at(this->p_game->index % this->p_game->size) != this->player_name) {
+        throw invalid_argument("Not your turn !");
+    }
+    this->p_game->index++;
+    set_coins(2);
 }
 
-void Ambassador::foreign_aid() const {
 
-}
-
+/**
+ *
+ * @return the rule of this player.
+ */
 string Ambassador::rule() const {
-    return std::string();
+    return "Ambassador";
 }
 
-void Ambassador::transfer(const Player& player1,const  Player& player2) {
+
+//TODO
+void Ambassador::transfer(const Player &player1, const Player &player2) {
+
+}
+//TODO
+void Ambassador::block(const Player &player) {
 
 }
 
-void Ambassador::block(const Player& player) {
 
-}
-
-string Ambassador::getName() {
-    return std::string();
-}
-
+//TODO
 void Ambassador::coup(const Player &player) const {
 
+}
+/**
+ *
+ * @param num
+ * set the coins of this player.
+ */
+void Ambassador::set_coins(int num) {
+    this->money+= num;
 }

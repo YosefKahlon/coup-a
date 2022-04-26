@@ -33,7 +33,6 @@ int main() {
     Contessa contessa{game_1, "Gilad"};
 
 
-    
     vector<string> players = game_1.players();
 
     /*
@@ -47,27 +46,35 @@ int main() {
     for (string name: players) {
         cout << name << endl;
     }
-//
-//
-//    // prints Moshe
-//    cout << game_1.turn() << endl;
-//
+
+
+    // prints Moshe
+    cout << game_1.turn() << endl;
+
 //    // throws no exceptions
-//    duke.income();
-//    assassin.income();
-//    ambassador.income();
-//    captain.income();
-//    contessa.income();
+    duke.income();
+    assassin.income();
+    ambassador.income();
+    captain.income();
+    contessa.income();
+
+
+    cout << "----------------------" << endl;
+    // throws exception, it is duke's turn now
+    try {
+        assassin.income();
+    }
+    catch (exception &e){
+         cout<<   e.what() <<endl;
+    }
 //
-//    // throws exception, it is duke's turn now
-//    assassin.income();
-//
-//    duke.income();
-//    assassin.foreign_aid();
+
+    duke.income();
+   assassin.foreign_aid();
 //
 //    // throws exception, the last operation duke performed
 //    // is income, which cannot be blocked by any role
-//    captain.block(duke);
+    captain.block(duke);
 //
 //    cout << duke.coins() << endl; // prints 2
 //    cout << assassin.coins() << endl; // prints 3

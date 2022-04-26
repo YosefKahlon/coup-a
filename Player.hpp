@@ -6,7 +6,7 @@
 #define COUP_A_PLAYER_HPP
 
 #include "string"
-
+#include "iostream"
 using namespace std;
 
 #include "Game.hpp"
@@ -22,9 +22,9 @@ public:
     // pure virtual
     virtual int coins() const = 0;
 
-    virtual void income() const = 0;
+    virtual void income() = 0;
 
-    virtual void foreign_aid() const = 0;
+    virtual void foreign_aid() = 0;
 
     virtual string rule() const = 0;
 

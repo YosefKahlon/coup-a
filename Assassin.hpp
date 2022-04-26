@@ -13,27 +13,32 @@ using namespace coup;
 
 class Assassin : public Player{
 
-private:
-    string name;
+public:
 
+    string player_name;
+    Game* p_game ;
+    int money;
 
 public:
+
+
     Assassin(Game &game ,const string& name);
 
     int coins() const override;
 
-    void income() const override;
+    void income()  override;
 
-    void foreign_aid() const override;
+    void foreign_aid()  override;
 
     string rule() const override;
 
     void coup(const Player& player);
 
-    string getName();
+
 
     void coup(const Player &player) const override;
 
+    void set_coins(int num);
 };
 
 #endif //COUP_A_ASSASSIN_HPP

@@ -12,7 +12,7 @@ using namespace std;
 coup::Game::Game() {
    this-> win = false; // there is a winner
     this->size = 0; //number of player
-
+    this->index = 0;
 }
 
 std::vector<std::string> coup::Game::players() {
@@ -34,7 +34,8 @@ std::string coup::Game::winner() {
 
 std::string coup::Game::turn() {
 
-    return std::string();
+
+    return this->player.at(index%size);
 }
 
 
