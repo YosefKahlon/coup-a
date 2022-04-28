@@ -9,26 +9,18 @@
 #include "Player.hpp"
 #include "Game.hpp"
 #include "string"
-using namespace coup;
+ namespace coup{
 
-class Assassin : public Player{
+class Assassin : public Player {
 
 public:
-
     string player_name;
-    Game* p_game ;
-    int money;
 
 public:
 
 
-    Assassin(Game &game ,const string& name);
+    Assassin(Game &game,  string name);
 
-    int coins() const override;
-
-    void income()  override;
-
-    void foreign_aid()  override;
 
     string rule() const override;
 
@@ -36,9 +28,7 @@ public:
 
 
 
-    void coup(const Player &player) const override;
-
-    void set_coins(int num);
 };
 
+}
 #endif //COUP_A_ASSASSIN_HPP

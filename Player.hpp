@@ -7,30 +7,38 @@
 
 #include "string"
 #include "iostream"
+
 using namespace std;
 
 #include "Game.hpp"
 
-class Player {
+namespace coup {
+    class Game;
+
+    class Player {
+
+    protected:
+        string player_name;
+        Game *p_game;
+        int money;
+
+    public:
+        Player(Game &game, string name);
+
+        virtual int coins() const ;
 
 
-public:
+        virtual void income();
 
+        virtual void set_coins(int num);
 
+        virtual void foreign_aid();
 
+        virtual string rule() const;
 
-    // pure virtual
-    virtual int coins() const = 0;
+        virtual void coup(const Player &player);
 
-    virtual void income() = 0;
-
-    virtual void foreign_aid() = 0;
-
-    virtual string rule() const = 0;
-
-    virtual void coup(const Player &player) const = 0;
-
-};
-
+    };
+}
 
 #endif //COUP_A_PLAYER_HPP

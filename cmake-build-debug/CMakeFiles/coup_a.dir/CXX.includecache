@@ -6,6 +6,10 @@
 
 #IncludeRegexTransform: 
 
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Ambassador.cpp
+Ambassador.hpp
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Ambassador.hpp
+
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Ambassador.hpp
 Player.hpp
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Player.hpp
@@ -13,6 +17,10 @@ Game.hpp
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Game.hpp
 string
 /mnt/c/Users/97252/Documents/GitHub/coup-a/string
+
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.cpp
+Assassin.hpp
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.hpp
 
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.hpp
 Player.hpp
@@ -22,6 +30,10 @@ Game.hpp
 string
 /mnt/c/Users/97252/Documents/GitHub/coup-a/string
 
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.cpp
+Captain.hpp
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.hpp
+
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.hpp
 Player.hpp
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Player.hpp
@@ -29,6 +41,10 @@ Game.hpp
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Game.hpp
 string
 /mnt/c/Users/97252/Documents/GitHub/coup-a/string
+
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.cpp
+Contessa.hpp
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.hpp
 
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.hpp
 Player.hpp
@@ -51,6 +67,10 @@ Captain.hpp
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Captain.hpp
 Contessa.hpp
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Contessa.hpp
+Game.hpp
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Game.hpp
+exception
+-
 iostream
 -
 stdexcept

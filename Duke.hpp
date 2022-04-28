@@ -4,39 +4,33 @@
 
 #ifndef COUP_A_DUKE_HPP
 #define COUP_A_DUKE_HPP
+
 #include "Player.hpp"
 #include "Game.hpp"
 #include "string"
-using namespace coup;
 
-class Duke : public Player{
+namespace coup {
 
-public:
-    string player_name;
-    Game* p_game;
-    int money;
+    class Duke : public Player {
 
-public:
+    public:
+        string player_name;
 
-    Duke(Game &game ,const string &name);
+    public:
 
-    int coins() const override;
+        Duke(Game &game, string name);
 
-    void income() override;
-
-    void foreign_aid() override;
-
-    string rule() const override;
-
-    void tax();
-
-    void block(const Player& player);
+        string rule() const override;
 
 
-    void set_coins(int num);
-
-    void coup(const Player &player) const override;
-};
+        //special action take 3 coins
+        void tax();
 
 
+        // block another player action(foreign aid)
+        void block(const Player &player);
+
+    };
+
+}
 #endif //COUP_A_DUKE_HPP

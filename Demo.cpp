@@ -11,13 +11,15 @@
 #include "Ambassador.hpp"
 #include "Captain.hpp"
 #include "Contessa.hpp"
+#include "Game.hpp"
+
+#include <exception>
 
 using namespace coup;
 
 #include <iostream>
 #include <stdexcept>
 #include <vector>
-
 using namespace std;
 
 int main() {
@@ -32,7 +34,6 @@ int main() {
     Captain captain{game_1, "Reut"};
     Contessa contessa{game_1, "Gilad"};
 
-
     vector<string> players = game_1.players();
 
     /*
@@ -43,45 +44,49 @@ int main() {
         Reut
         Gilad
     */
-    for (string name: players) {
+    for(string name : players){
         cout << name << endl;
     }
-
 
     // prints Moshe
     cout << game_1.turn() << endl;
 
-//    // throws no exceptions
+    // throws no exceptions
     duke.income();
     assassin.income();
     ambassador.income();
     captain.income();
     contessa.income();
 
-
-    cout << "----------------------" << endl;
     // throws exception, it is duke's turn now
-    try {
+    try{
         assassin.income();
+    }catch (const std::exception &e){
+        std::cerr << e.what() << '\n';
     }
-    catch (exception &e){
-         cout<<   e.what() <<endl;
-    }
-//
-
     duke.income();
-   assassin.foreign_aid();
+    assassin.foreign_aid();
 //
 //    // throws exception, the last operation duke performed
 //    // is income, which cannot be blocked by any role
-    captain.block(duke);
+//    try{
+//        captain.block(duke);
+//    }catch (const std::exception &e)
+//    {
+//        std::cerr << e.what() << '\n';
+//    }
 //
 //    cout << duke.coins() << endl; // prints 2
 //    cout << assassin.coins() << endl; // prints 3
 //
-//    // throws exception, the last operation duke performed
+//    // throws exception, the last operation assassin performed
 //    // is foreign aid, which cannot be blocked by contessa
-//    contessa.block(assassin);
+//    try{
+//        contessa.block(assassin);
+//    }catch (const std::exception &e)
+//    {
+//        std::cerr << e.what() << '\n';
+//    }
 //
 //    duke.block(assassin);
 //    cout << assassin.coins() << endl; // prints 1
@@ -108,7 +113,8 @@ int main() {
 //        Reut
 //        Gilad
 //    */
-//    for (string name: players) {
+//    for (string name : players)
+//    {
 //        cout << name << endl;
 //    }
 //
@@ -117,13 +123,14 @@ int main() {
 //    players = game_1.players();
 //    /*
 //        prints:
+//        Moshe
 //        Yossi
 //        Meirav
 //        Reut
 //        Gilad
 //    */
-//    for (string name: players) {
+//    for (string name : players)
+//    {
 //        cout << name << endl;
 //    }
 }
-

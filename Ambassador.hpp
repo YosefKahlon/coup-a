@@ -9,37 +9,29 @@
 #include "Game.hpp"
 #include "string"
 
-using namespace coup;
+namespace coup {
 
-class Ambassador : public Player {
+    class Ambassador : public Player {
 
-public:
-    string player_name;
-    Game *p_game;
-    int money;
+    public:
+        string player_name;
 
-public:
-    Ambassador(Game &game, const string &name);
-
-    int coins() const override;
-
-    void income() override;
-
-    void foreign_aid() override;
-
-    string rule() const override;
-
-    void transfer(const Player &player1, const Player &player2);
+    public:
+        Ambassador(Game &game, string name);
 
 
-    //block steel
-    void block(const Player &player);
+        string rule() const override;
 
-    string getName();
 
-    void coup(const Player &player) const override;
 
-    void set_coins(int num);
-};
+        void transfer(const Player &player1, const Player &player2);
 
+
+        //block steel
+        void block(const Player &player);
+
+
+    };
+
+}
 #endif //COUP_A_AMBASSADOR_HPP
