@@ -339,6 +339,33 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+Test.o: Test.cpp.o
+
+.PHONY : Test.o
+
+# target to build an object file
+Test.cpp.o:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Test.cpp.o
+.PHONY : Test.cpp.o
+
+Test.i: Test.cpp.i
+
+.PHONY : Test.i
+
+# target to preprocess a source file
+Test.cpp.i:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Test.cpp.i
+.PHONY : Test.cpp.i
+
+Test.s: Test.cpp.s
+
+.PHONY : Test.s
+
+# target to generate assembly for a file
+Test.cpp.s:
+	$(MAKE) -f CMakeFiles/coup_a.dir/build.make CMakeFiles/coup_a.dir/Test.cpp.s
+.PHONY : Test.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -399,6 +426,9 @@ help:
 	@echo "... Player.o"
 	@echo "... Player.i"
 	@echo "... Player.s"
+	@echo "... Test.o"
+	@echo "... Test.i"
+	@echo "... Test.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

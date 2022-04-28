@@ -42,5 +42,15 @@ CMakeFiles/coup_a.dir/Player.cpp.o: ../Game.hpp
 CMakeFiles/coup_a.dir/Player.cpp.o: ../Player.cpp
 CMakeFiles/coup_a.dir/Player.cpp.o: ../Player.hpp
 
+CMakeFiles/coup_a.dir/Test.cpp.o: ../Ambassador.hpp
+CMakeFiles/coup_a.dir/Test.cpp.o: ../Assassin.hpp
+CMakeFiles/coup_a.dir/Test.cpp.o: ../Captain.hpp
+CMakeFiles/coup_a.dir/Test.cpp.o: ../Contessa.hpp
+CMakeFiles/coup_a.dir/Test.cpp.o: ../Duke.hpp
+CMakeFiles/coup_a.dir/Test.cpp.o: ../Game.hpp
+CMakeFiles/coup_a.dir/Test.cpp.o: ../Player.hpp
+CMakeFiles/coup_a.dir/Test.cpp.o: ../Test.cpp
+CMakeFiles/coup_a.dir/Test.cpp.o: ../doctest.h
+
 CMakeFiles/coup_a.dir/main.cpp.o: ../main.cpp
 

@@ -12,6 +12,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.cpp" "/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles/coup_a.dir/Duke.cpp.o"
   "/mnt/c/Users/97252/Documents/GitHub/coup-a/Game.cpp" "/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles/coup_a.dir/Game.cpp.o"
   "/mnt/c/Users/97252/Documents/GitHub/coup-a/Player.cpp" "/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles/coup_a.dir/Player.cpp.o"
+  "/mnt/c/Users/97252/Documents/GitHub/coup-a/Test.cpp" "/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles/coup_a.dir/Test.cpp.o"
   "/mnt/c/Users/97252/Documents/GitHub/coup-a/main.cpp" "/mnt/c/Users/97252/Documents/GitHub/coup-a/cmake-build-debug/CMakeFiles/coup_a.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")

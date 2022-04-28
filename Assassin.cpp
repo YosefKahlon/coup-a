@@ -23,8 +23,8 @@ string Assassin::rule() const {
     return "Assassin";
 }
 
-void Assassin::coup(const Player &player) {
-   // Player::coup(player);
-}
+//void Assassin::coup(const Player &player) {
+//   // Player::coup(player);
+//}
 
 
