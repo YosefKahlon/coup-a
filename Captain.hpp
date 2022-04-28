@@ -23,10 +23,10 @@
 
          string rule() const override;
 
-         void steal(const Player &player);
+         void steal( Player player);
 
          //block steel
-         void block(const Player &player);
+         void block( Player player);
 
 
      };

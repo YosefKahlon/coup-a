@@ -1,4 +1,4 @@
-//
+
 // Created by 97252 on 4/28/2022.
 //
 #include "Player.hpp"
@@ -71,39 +71,40 @@ TEST_CASE ("GOOD TEST") {
         }
 
     }
-    SUBCASE("SPECIAL ACTION"){
+            SUBCASE("SPECIAL ACTION"){
 
-            //TAX
-            // BLOCK FOREIGN AID
-            // CAPTAIN STEALING
-            // TRANSFER
-            // COUPE
-            //BLOCK COUPE
-            //INCOME
-            // - MONEY FROM TRANSFER
+        //TAX
+        // BLOCK FOREIGN AID
+        // CAPTAIN STEALING
+        // TRANSFER
+        // COUPE
+        //BLOCK COUPE
+        //INCOME
+        // - MONEY FROM TRANSFER
 
-            }
+    }
 
-     SUBCASE("GAME") {
-                // SIZE OF PLAYER
-                // MAX MONEY
-                // COUPE
-                //COUPE
+            SUBCASE("GAME") {
+        // SIZE OF PLAYER
+        // MAX MONEY
+        // COUPE
+        //COUPE
 
-                // HAVE TO MAKE COUPE MORE THEN 10 COIN
-                // SIZE OF PLAYER
-                // WHILE ( SIZE EOF PLAYER == 1 ) IF HAVE ENOUGH COIN MAKE COIN
-                // TEST RULE
-                // ELSE MAKE TAKE THE MAX MONEY YOU CAN TAKE
-                // MAKE A COPE FOR YOUR NEXT
-                // SIZE = 1
-                // IF THE WINNER IS ==
-            }
+        // HAVE TO MAKE COUPE MORE THEN 10 COIN
+        // SIZE OF PLAYER
+        // WHILE ( SIZE EOF PLAYER == 1 ) IF HAVE ENOUGH COIN MAKE COIN
+        // TEST RULE
+        // ELSE MAKE TAKE THE MAX MONEY YOU CAN TAKE
+        // MAKE A COPE FOR YOUR NEXT
+        // SIZE = 1
+        // IF THE WINNER IS ==
+    }
 }
 
 
 TEST_CASE ("BAD CASE"){
 
-    
+    // duke did somting and somoem try to blobe
+    // not your turn
 
 }

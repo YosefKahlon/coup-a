@@ -23,12 +23,11 @@ namespace coup {
         string rule() const override;
 
 
-
-        void transfer(const Player &player1, const Player &player2);
+        void transfer(Player player1, Player player2);
 
 
         //block steel
-        void block(const Player &player);
+        void block(Player player);
 
 
     };

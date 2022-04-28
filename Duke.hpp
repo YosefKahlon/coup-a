@@ -27,8 +27,8 @@ namespace coup {
         void tax();
 
 
-        // block another player action(foreign aid)
-        void block(const Player &player);
+        // block another player operation(foreign aid)
+        void block(Player player);
 
     };
 

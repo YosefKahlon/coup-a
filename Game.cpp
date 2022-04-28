@@ -8,11 +8,15 @@
 #include "stdio.h"
 
 using namespace std;
+using namespace coup;
+
+
 
 coup::Game::Game() {
    this-> win = false; // there is a winner
     this->size = 0; //number of player
     this->index = 0;
+
 }
 
 std::vector<std::string> coup::Game::players() {
@@ -35,6 +39,8 @@ std::string coup::Game::winner() {
 std::string coup::Game::turn() {
 
 
+
+    // if after one cycye thre is cuope this player out;
     return this->player.at(index%size);
 }
 

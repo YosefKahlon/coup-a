@@ -12,11 +12,14 @@ using namespace std;
 namespace coup {
     class Game {
     public:
-        std::vector<std::string> player;
+        vector<std::string> player;
         bool win;
         ::size_t size;
         ::size_t index;
+        vector<int> action_of_the_player;
+        vector<int> action_for_player;
 
+ 
     public:
 
         Game();
