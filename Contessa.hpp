@@ -17,7 +17,7 @@ namespace coup {
 
 
     public:
-        Contessa(Game &game, string name);
+        Contessa(Game &game, const string& name);
 
 
         string rule() const override;

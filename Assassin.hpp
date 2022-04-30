@@ -19,13 +19,13 @@ public:
 public:
 
 
-    Assassin(Game &game,  string name);
+    Assassin(Game &game,  const string& name);
 
 
     string rule() const override;
 
-    //void coup(const Player& player);
 
+    void coup(Player player) override;
 
 
 };

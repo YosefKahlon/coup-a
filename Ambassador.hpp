@@ -17,7 +17,7 @@ namespace coup {
         string player_name;
 
     public:
-        Ambassador(Game &game, string name);
+        Ambassador(Game &game, const string& name);
 
 
         string rule() const override;

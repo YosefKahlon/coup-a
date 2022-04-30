@@ -18,7 +18,7 @@
 
 
      public:
-         Captain(Game &game, string name);
+         Captain(Game &game, const string& name);
 
 
          string rule() const override;

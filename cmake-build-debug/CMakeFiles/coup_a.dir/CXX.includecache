@@ -6,17 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.cpp
-iostream
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.cpp
+sstream
 -
-Duke.hpp
-/mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.hpp
-Player.hpp
-/mnt/c/Users/97252/Documents/GitHub/coup-a/Player.hpp
-Game.hpp
-/mnt/c/Users/97252/Documents/GitHub/coup-a/Game.hpp
+Assassin.hpp
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.hpp
 
-/mnt/c/Users/97252/Documents/GitHub/coup-a/Duke.hpp
+/mnt/c/Users/97252/Documents/GitHub/coup-a/Assassin.hpp
 Player.hpp
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Player.hpp
 Game.hpp
@@ -29,6 +25,8 @@ string
 /mnt/c/Users/97252/Documents/GitHub/coup-a/string
 vector
 /mnt/c/Users/97252/Documents/GitHub/coup-a/vector
+unordered_map
+/mnt/c/Users/97252/Documents/GitHub/coup-a/unordered_map
 
 /mnt/c/Users/97252/Documents/GitHub/coup-a/Player.hpp
 string

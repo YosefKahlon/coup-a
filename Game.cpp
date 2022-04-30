@@ -19,7 +19,7 @@ coup::Game::Game() {
 
 }
 
-std::vector<std::string> coup::Game::players() {
+std::vector<std::string> coup::Game::players() const {
 
     return this->player;
 
@@ -33,7 +33,7 @@ std::string coup::Game::winner() {
     }
 
 
-    return std::string();
+    return turn();
 }
 
 std::string coup::Game::turn() {

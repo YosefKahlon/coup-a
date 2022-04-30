@@ -41,7 +41,13 @@ namespace coup {
 
         virtual void coup( Player player);
 
-        virtual int find_player(Player player);
+        virtual int find_player(const string& player_n);
+
+        virtual string get_name();
+
+        virtual  void out_from_game(int pos);
+
+
     };
 }
 

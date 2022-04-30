@@ -18,7 +18,7 @@ namespace coup {
 
     public:
 
-        Duke(Game &game, string name);
+        Duke(Game &game, const string& name);
 
         string rule() const override;
 

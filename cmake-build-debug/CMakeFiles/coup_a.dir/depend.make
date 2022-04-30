@@ -43,7 +43,6 @@ CMakeFiles/coup_a.dir/Player.cpp.o: ../Player.cpp
 CMakeFiles/coup_a.dir/Player.cpp.o: ../Player.hpp
 
 CMakeFiles/coup_a.dir/Test.cpp.o: ../Test.cpp
-CMakeFiles/coup_a.dir/Test.cpp.o: ../Test.hpp
 
 CMakeFiles/coup_a.dir/main.cpp.o: ../main.cpp
 
