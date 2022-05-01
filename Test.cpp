@@ -1,6 +1,5 @@
 
-// Created by 97252 on 4/28/2022.
-//
+
 #include "Player.hpp"
 #include "Duke.hpp"
 #include "Assassin.hpp"
@@ -140,14 +139,15 @@ TEST_CASE ("GAME - 2") {
 
     //round 1
     duke.tax();
+
             CHECK_THROWS(assassin.coup(duke)); // assassin not have enough money to make this move
     assassin.foreign_aid();
     assassin2.income();
-            CHECK_THROWS(contessa.block(assassin)); // last move of assassin was ok
+           CHECK_THROWS(contessa.block(assassin)); // last move of assassin was ok
     captain.steal(assassin2); // assassin have 1 coin
-            CHECK_EQ(captain.coins(), 1);
+          CHECK_EQ(captain.coins(), 1);
     contessa.income();
-    captain2.income();
+   captain2.income();
 
 
 
@@ -156,43 +156,43 @@ TEST_CASE ("GAME - 2") {
             CHECK_EQ(duke.coins(), 5);
     assassin.income(); //3
     assassin2.foreign_aid(); //3
-    captain.income();//2
+   captain.income();//2
     contessa.foreign_aid(); // 3
-    captain2.steal(duke);//3
+   captain2.steal(duke);//3
 
-            CHECK_EQ(duke.coins(), 3);
+          CHECK_EQ(duke.coins(), 3);
             CHECK_EQ(captain2.coins(), 3);
 
     //round 3
     duke.income();
-    assassin.coup(contessa);
+   assassin.coup(contessa);
     assassin2.coup(duke);
 
     captain.foreign_aid();
-    //contessa.income();
-    captain2.foreign_aid();
+    contessa.income();
+   captain2.foreign_aid();
 
 
     //round 4
 
-            CHECK_EQ(game_1.player.size(), 4);
+           CHECK_EQ(game_1.player.size(), 4);
     while (captain.coins() == 7 && captain2.coins() == 7) {
         assassin.foreign_aid();
-        assassin2.foreign_aid();
+       assassin2.foreign_aid();
         captain.steal(assassin);
         captain2.steal(assassin2);
                 CHECK_EQ(assassin.coins(), 0);
-                CHECK_EQ(assassin2.coins(), 0);
+               CHECK_EQ(assassin2.coins(), 0);
     }
-    assassin.foreign_aid();
-    assassin2.foreign_aid();
-    captain.coup(assassin);
+   assassin.foreign_aid();
+   assassin2.foreign_aid();
+   captain.coup(assassin);
     captain2.coup(assassin2);
             CHECK_EQ(game_1.player.size(), 2);
 
     while (captain2.coins() == 7) {
 
-        captain.income();
+       captain.income();
         captain2.steal(captain);
 
     }

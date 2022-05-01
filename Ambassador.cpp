@@ -22,7 +22,7 @@ string Ambassador::rule() const {
 }
 
 
-void Ambassador::transfer( Player player1,  Player player2) {
+void Ambassador::transfer( Player &player1,  Player& player2) {
     if (this->p_game->player.at(this->p_game->index % this->p_game->size) != this->player_name) {
         throw invalid_argument("Not your turn !");
     }
@@ -48,7 +48,7 @@ void Ambassador::transfer( Player player1,  Player player2) {
 
 }
 
-void Ambassador::block( Player player) {
+void Ambassador::block( Player& player) {
     int i = find_player(player.get_name());
     if (this->p_game->action_of_the_player.at((unsigned long)i) != Steel) {
 

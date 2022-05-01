@@ -66,7 +66,6 @@ int main() {
     }
     duke.income();
     assassin.foreign_aid();
-
     // throws exception, the last operation duke performed
     // is income, which cannot be blocked by any role
     try{
@@ -92,6 +91,7 @@ int main() {
     cout << assassin.coins() << endl; // prints 1
 
     ambassador.transfer(duke, assassin); //transfers 1 coin from duke to assassin
+
     captain.foreign_aid();
     contessa.foreign_aid();
 
@@ -103,7 +103,10 @@ int main() {
 
     duke.tax();
     // no exception, assassin can coup with only 3 coins
+
     assassin.coup(duke);
+
+
 
     players = game_1.players();
     /*

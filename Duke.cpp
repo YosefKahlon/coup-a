@@ -48,7 +48,7 @@ void Duke::tax() {
 
 
 
-void Duke::block(Player player) {
+void Duke::block(Player& player) {
     int i = find_player(player.get_name());
     if (this->p_game->action_of_the_player.at((unsigned long)i) != Foreign_aid) {
         throw runtime_error("Duke cannot block this player operation ! ");

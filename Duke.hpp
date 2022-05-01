@@ -28,7 +28,7 @@ namespace coup {
 
 
         // block another player operation(foreign aid)
-        void block(Player player);
+        void block(Player& player);
 
     };
 

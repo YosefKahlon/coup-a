@@ -24,7 +24,7 @@ namespace coup {
 
 
         //block steel
-        void block( Player player);
+        void block( Player& player);
 
 
     };

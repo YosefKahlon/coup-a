@@ -25,7 +25,7 @@ public:
     string rule() const override;
 
 
-    void coup(Player player) override;
+
 
 
 };

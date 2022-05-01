@@ -25,7 +25,7 @@ string Captain::rule() const {
 
 
 //TODO
-void Captain::steal(Player player) {
+void Captain::steal(Player& player) {
     if (this->p_game->player.at(this->p_game->index % this->p_game->size) != this->player_name) {
         throw invalid_argument("Not your turn !");
     }
@@ -61,7 +61,7 @@ void Captain::steal(Player player) {
 }
 
 
-void Captain::block(Player player) {
+void Captain::block(Player &player) {
     int i = find_player(player.get_name());
     if (this->p_game->action_of_the_player.at((unsigned long)i) != Steel) {
 
