@@ -91,15 +91,15 @@ void coup::Player::foreign_aid() {
 
 void coup::Player::coup(Player &player) {
     const int seven = 7;
-    const int tree = 3;
-    if (rule() == "Assassin" && coins() < seven && coins() >= tree) {
+    const int three = 3;
+    if (rule() == "Assassin" && coins() < seven && coins() >= three) {
 
 
         int i = find_player(player.get_name());
 
         this->set_Action(   Coup_ass);
 
-        set_coins(-tree);
+        set_coins(-three);
         //this->p_game->action_for_player.at((unsigned long) i) = Coup_ass;
         // cout<<this->p_game->index % this->p_game->size <<endl;
          player.set_Action(Coup_ass);
@@ -116,7 +116,7 @@ void coup::Player::coup(Player &player) {
        // this->p_game->index++;
         throw runtime_error("Not enough money for this operation !");
     }
-     else if (rule() == "Assassin" &&  coins() < tree){
+      if (rule() == "Assassin" &&  coins() < three){
          //this->p_game->index++;
          throw runtime_error("Not enough money for this operation !");
      }
